@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f0f2f5;
+    color: #333;
+}
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-right: 15px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+}

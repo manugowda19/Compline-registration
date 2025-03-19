@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Complaints</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Submitted Complaints</h1>
+    <ul>
+        {% for complaint in complaints %}
+        <li><b>{{ complaint.name }}</b> - {{ complaint.complaint }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

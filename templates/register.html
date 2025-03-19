@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Complaint</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Register Your Complaint</h1>
+    <form method="POST" action="/register">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="complaint">Complaint:</label>
+        <textarea id="complaint" name="complaint" rows="4" required></textarea>
+        <br>
+        <button type="submit">Submit Complaint</button>
+    </form>
+</body>
+</html>
